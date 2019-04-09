@@ -1,5 +1,6 @@
 #!usr/bin/env bash
 # File: guessinggame.sh
+function guess {
 
 while :
 do
@@ -17,4 +18,6 @@ do
 			break
 		fi
 done
+}
+guess 
 
